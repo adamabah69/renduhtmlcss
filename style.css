@@ -3,15 +3,31 @@
     padding: 0;
     border: 1px solid red;
 }
-img{
-    width: 5%;
+.hero-img{
+  background-size: 150px;
+  width:50%;
+
+  border: 2px solid;
 }
-ul{
-   justify-content: space-between;
+textarea{
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
 }
-p{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+.hero{
+    display: flex;
+    div{
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    }
+    p{
+        text-align: center;
+    }
 }
-h2{
-    font-family:'Times New Roman', Times, serif;
+#logo{
+    display: flex;
 }
